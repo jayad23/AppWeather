@@ -1,9 +1,7 @@
 {
   "name": "weater",
   "version": "0.1.0",
-  "homepage":"https://jayad23.github.io/AppWeather",
   "private": true,
-  "homepage": "https://FernandoFonsek.github.io/weather/",
   "dependencies": {
     "-": "^0.0.1",
     "@craco/craco": "^6.4.0",
@@ -23,9 +21,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
