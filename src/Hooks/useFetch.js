@@ -1,3 +1,4 @@
+/* eslint-disable no-throw-literal */
 import { useState, useEffect} from 'react';
 
 
@@ -14,11 +15,8 @@ export const useFetch = (url) =>{
     const getData = async (url) =>{
         try {
             const response = await fetch(url)
-            // console.log(response)
 
             if(!response.ok){
-                // console.log("aca entro a decir que es falso")
-                // console.log(response.statusText)
                 throw {
                     err: true,
                     status: response.status,
